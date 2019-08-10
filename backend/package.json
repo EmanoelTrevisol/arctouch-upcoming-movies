@@ -3,14 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon --inspect index.js"
   },
   "dependencies": {
+    "boom": "^7.3.0",
     "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
+    "express": "^4.16.4",
+    "glob": "^7.1.4",
     "jade": "~1.11.0",
+    "mongoose": "^5.6.9",
     "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
