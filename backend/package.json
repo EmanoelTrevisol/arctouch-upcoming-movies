@@ -6,13 +6,18 @@
     "start": "nodemon --inspect index.js"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "boom": "^7.3.0",
     "cookie-parser": "~1.4.4",
+    "cron": "^1.7.1",
     "express": "^4.16.4",
     "glob": "^7.1.4",
     "jade": "~1.11.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
     "mongoose": "^5.6.9",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "qs": "^6.7.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"

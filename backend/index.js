@@ -6,7 +6,8 @@ mongoose.connect(config.db, {
   config: {
     autoIndex: true
   },
-  useNewUrlParser: true
+  useNewUrlParser: true,
+  useFindAndModify: false
 });
 
 const db = mongoose.connection;
@@ -20,6 +21,7 @@ db.on("error", err => {
 
 const app = require("./_config/express");
 require("./_config/routes")(app);
+require("./_crons/index").startCrons();
 
 app.listen(config.port, () => {
   console.log(`Express server listening on port ${config.port}`);
