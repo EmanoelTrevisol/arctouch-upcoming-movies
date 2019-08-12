@@ -16,7 +16,7 @@ movieRouter.get(
 
   async (req, res, next) => {
     try {
-      const movies = await MovieManager.list({ ...req.body });
+      const movies = await MovieManager.list({ ...req.query });
 
       return res.json(movies);
     } catch (err) {
