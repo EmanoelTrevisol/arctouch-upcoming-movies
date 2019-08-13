@@ -14,7 +14,10 @@ function sanitizeMovie(movie) {
  * @param {String} arg.search 	the user input search string
  */
 exports.list = async ({ page = 1, limit = 15, search = "" }) => {
-  const query = {};
+  const query = {
+    status: "ACTIVE"
+  };
+
   const offset = limit > 50 ? 50 : limit;
 
   if (search) {
