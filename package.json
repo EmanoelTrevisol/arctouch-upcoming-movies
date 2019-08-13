@@ -1,0 +1,27 @@
+{
+  "name": "arctouch-upcoming-movies",
+  "version": "1.0.0",
+  "description": "Shows upcoming movies from TMDB API",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "node ./backend/index.js",
+    "build": "echo \"Built!\" --output ./backend/public ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanoelTrevisol/upcoming-movies.git"
+  },
+  "author": "Emanoel Trevisol <emanoel.trevisol@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmanoelTrevisol/upcoming-movies/issues"
+  },
+  "homepage": "https://github.com/EmanoelTrevisol/upcoming-movies#readme",
+  "dependencies": {
+    "vue-cli": "^2.9.6"
+  }
+}

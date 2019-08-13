@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/emanoeltrevisol/.nvm/versions/node/v10.15.3/bin/node /Users/emanoeltrevisol/.nvm/versions/node/v10.15.3/bin/yarn add vue-cli-service
+
+PATH: 
+  /Users/emanoeltrevisol/.nvm/versions/node/v10.15.3/bin:/usr/local/opt/gradle/libexec/bin:/Users/emanoeltrevisol/Library/Android/sdk//tools:/Users/emanoeltrevisol/Library/Android/sdk//platform-tools:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/vue-cli-service: Not found
+      at Request.params.callback [as _callback] (/Users/emanoeltrevisol/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/Users/emanoeltrevisol/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:129590:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/Users/emanoeltrevisol/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:130562:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/Users/emanoeltrevisol/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "arctouch-upcoming-movies",
+    "version": "1.0.0",
+    "description": "Shows upcoming movies from TMDB API",
+    "main": "backend/index.js",
+    "scripts": {
+      "start": "node ./backend/index.js",
+      "build": "cd frontend && yarn build",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/EmanoelTrevisol/upcoming-movies.git"
+    },
+    "author": "Emanoel Trevisol <emanoel.trevisol@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/EmanoelTrevisol/upcoming-movies/issues"
+    },
+    "homepage": "https://github.com/EmanoelTrevisol/upcoming-movies#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -9,7 +9,8 @@ const env = process.env.NODE_ENV || "development";
  */
 const DEFAULT_ENV_CONFIG = {
   root: rootPath,
-  db: "mongodb://localhost:27017/upcoming-movies",
+  db: process.env.MONGODB_URI || "mongodb://localhost:27017/upcoming-movies",
+  // db: "mongodb://localhost:27017/upcoming-movies",
   port: process.env.PORT || 8888,
   tmdb: {
     key: "1f54bd990f1cdfb230adb312546d765d",
