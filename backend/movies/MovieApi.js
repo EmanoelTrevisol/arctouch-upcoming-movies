@@ -8,7 +8,7 @@ const movieRouter = express.Router({ mergeParams: true });
 const MovieManager = require("./MovieManager");
 
 module.exports = app => {
-  app.use("/api/movies", movieRouter);
+  app.use("/movies", movieRouter);
 };
 
 movieRouter.get(
