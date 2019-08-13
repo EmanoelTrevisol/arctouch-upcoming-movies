@@ -1,6 +1,5 @@
 // libs
 const express = require("express");
-const _ = require("lodash");
 
 const movieRouter = express.Router({ mergeParams: true });
 

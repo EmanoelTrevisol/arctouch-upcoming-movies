@@ -28,6 +28,7 @@ module.exports = app => {
       })
       .sendFile(`${rootPath}/public/index.html`);
   });
+
   app.use(express.static(`${rootPath}/public/static`));
 
   // Error handling
