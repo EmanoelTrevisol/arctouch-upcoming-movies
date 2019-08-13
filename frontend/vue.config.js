@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  outputDir: "../server/public",
+  outputDir: "../backend/public",
   lintOnSave: true,
   runtimeCompiler: true,
   devServer: {
